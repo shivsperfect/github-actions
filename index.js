@@ -1,1 +1,4 @@
-console.log('console log 1')
+var _ = require('lodash');
+
+
+console.log('lodash ', _.defaults({ 'a': 1 }, { 'a': 3, 'b': 2 }))
